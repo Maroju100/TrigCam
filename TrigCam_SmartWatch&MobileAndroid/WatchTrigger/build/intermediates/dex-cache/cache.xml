@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6a81c153e16af720bf597a0a463f7d673f88ea10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/wear/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43bf78581411095a90f5a0aba7f419b370223ef1">
+        <dex dex="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/wear/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f72eb2d83e437488604570757e984537927f5b76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b262808ecc48d1218afaf50d8f739b4955b02a4a">
+        <dex dex="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f3671f7157cd722561c5b82d958492c97735fa96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/wear/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ms/Downloads/WatchTriggers/WatchTriggerBeforeFinal/WatchTrigger/wear/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_52a99430ca55aacaaa1370a9f6eb4083ac24d5b7/classes.dex" />
+    </item>
+
+</items>

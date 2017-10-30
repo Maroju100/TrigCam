@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="@color/common_google_signin_btn_text_light_pressed"-->
+    <!--android:orientation="vertical"-->
+    <!--android:weightSum="1">-->
+
+    <!--<TableLayout-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="10dip"-->
+        <!--android:stretchColumns="*">-->
+
+        <!--<TableRow>-->
+
+        <!--</TableRow>-->
+
+        <!--<TableRow>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/y_axis"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/complicationDrawable_highlightColor"-->
+                <!--android:onClick="service"-->
+                <!--android:text="StartSerive"-->
+                <!--android:textColor="@color/black" />-->
+                <!--tools:text="StartService" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/z_axis"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center" />-->
+        <!--</TableRow>-->
+    <!--</TableLayout>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:paddingTop="10dip"-->
+        <!--android:visibility="invisible" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/complicationDrawable_highlightColor"-->
+        <!--android:onClick="btn2"-->
+        <!--android:text="WatchTrig1.0"-->
+        <!--android:textColor="@color/black" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="417dp"-->
+        <!--android:layout_height="28dp"-->
+        <!--android:onClick="button2"-->
+        <!--android:text="Accel based Roll and Pitch Sensing" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="29dp"-->
+        <!--android:onClick="button4"-->
+        <!--android:text="Magnetometer Sensing" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="27dp"-->
+        <!--android:onClick="button5"-->
+        <!--android:text="Both Accel and Magnetometer sensing" />-->
+
+<!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/common_google_signin_btn_text_light_pressed"
+android:orientation="vertical"
+android:weightSum="1">
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@color/complicationDrawable_borderColor"
+        android:text="WatchTrig1.0"
+        android:textColor="@color/black" />
+
+    <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dip"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/y_axis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btn"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/dismiss_overlay_bg"
+            android:onClick="service"
+            android:text="StartService-Accel_Orientation"
+            android:textColor="@color/dark_grey"
+            android:textSize="10sp" />
+        <!--/>-->
+        <!--tools:text="StartService" />-->
+
+        <TextView
+            android:id="@+id/z_axis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+    </TableRow>
+</TableLayout>
+
+<!--<ImageView-->
+    <!--android:id="@+id/image"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:paddingTop="10dip"-->
+    <!--android:visibility="invisible" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/dismiss_overlay_bg"
+        android:onClick="button2"
+
+        android:text="StartService-Magnetometer Sensing"
+
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/dismiss_overlay_bg"
+        android:onClick="button4"
+        android:text="StartService-Accel and Mag Sensing"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/dismiss_overlay_bg"
+        android:onClick="button3"
+        android:text="Orientation Sensing-Mag Sensing"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/dismiss_overlay_bg"
+        android:onClick="button5"
+        android:text="OrientationSensing"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp" />
+</LinearLayout>
+
+
+
+
+
+
