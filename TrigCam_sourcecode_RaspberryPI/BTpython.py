@@ -31,3 +31,4 @@ while True:
  print "disconnected"
 
  client_sock.close()
+//editing TrigCam development branch
